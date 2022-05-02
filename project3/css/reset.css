@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font: normal  14px/1  'Roboto', 'Montserrat';
+  color: #232323;
+  background: #fff;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  color: #232323;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#skip{width: 100%; position: fixed; top:0; left: 0; z-index: 2;}
+#skip li{width: 100%}
+#skip li a{background: #000; color: #fff; text-align: center; font-size: 0; line-height: 0; width: 100%; display: block;}
+#skip li a:focus{font-size: 20px; line-height: 50px;}

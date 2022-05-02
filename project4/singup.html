@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/reset.css"> 
+        <link rel="stylesheet" href="css/style2.css">
+        
+        <!-- favicon -->
+        <link rel="icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+        <link rel="icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+        <link rel="icon" sizes="72x72" href="./favicon/android-icon-72x72.png">
+        <link rel="icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+        <link rel="icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+        <link rel="icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+        <link rel="icon" sizes="144x144" href="./favicon/android-icon-144x144.png">
+        <link rel="icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+        <link rel="icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    <title>회원가입페이지</title>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="logo">
+                <h1> <a href="./index.html"><img src="./img/logo.png" alt="logo"></a></h1>
+            </div>
+        </header>
+        <section id="section">
+            <div class="formWrap">
+                <form action="" method="post">
+                    아이디<br>
+                    <input id="id" name="id" type="text" >
+                    <label for="id"></label>
+                    <br>
+                    비밀번호<br>
+                    <input id="pw" name="pw" type="password">
+                    <label for="pw"></label>
+                    <br>
+                    비밀번호 재확인<br>
+                    <input id="pwRe" name="pwRe" type="password">
+                    <label for="pwRe"></label>
+                    <br>
+                    생년월일<br>
+                    <input id="yy" name="yy" type="text" placeholder="년(4자)">
+                    <label for="yy"></label>
+                    <select  name="mm" id="mm" class="sel" aria-label="월">
+                        <option value="">월</option>
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">6</option>
+                        <option value="07">7</option>
+                        <option value="08">8</option>
+                        <option value="09">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <input type="text" name="xx" id="xx" placeholder="일">
+                    <label for="xx"></label>
+                    <br>
+                    성별<br>
+                    <select name="gender" id="gender"aria-label="성별">
+                        <option value="">성별</option>
+                        <option value="M">남자</option>
+                        <option value="F">여자</option>
+                    </select><br>
+                    이름<br>
+                    <input id="name" name="name" type="text" placeholder="이름"><br>
+                    휴대전화<br>
+                    <select name="sel" id="sel" aria-label="휴대전화 입력">
+                        <option value="82" selected>
+                            대한민국 +82
+                        </option>
+                        <option value="1">
+                            미국/캐나다
+                        </option>
+                    </select><br>
+                    <div class="sellWrap">
+                        <input id="sell" name="sell" type="text" placeholder="전화번호 입력">
+                        <label for="sell"></label>
+                        <a href="#" class="btn" title="인증번호 받기 버튼">인증번호 받기</a>
+                    </div>
+                    <button type="submit">가입하기</button>
+                </form>
+
+            </div>
+        </section>
+    </div>
+</body>
+</html>
