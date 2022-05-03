@@ -1,0 +1,49 @@
+
+@import url(//db.onlinewebfonts.com/c/c07cbb7207c8c6778522ffe59ee0da51?family=Subway+Footlong);
+/* --- webfont --- */
+@font-face {
+    font-family:font_ns;
+    font-weight:normal;
+    src:local(※);
+      src: url(/font/NotoSansKR-Regular.eot);
+      src: url(/font/NotoSansKR-Regular.eot?#iefix) format('embedded-opentype'),
+      url(/font/NotoSansKR-Regular.woff) format('woff'),
+      url(/font/NotoSansKR-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family:font_ns;
+    font-weight:300;
+    src:local(※);
+      src: url(/font/NotoSansKR-Medium.eot);
+      src: url(/font/NotoSansKR-Medium.eot?#iefix) format('embedded-opentype'),
+      url(/font/NotoSansKR-Medium.woff) format('woff'),
+      url(/font/NotoSansKR-Medium.ttf) format('truetype');
+  }
+  @font-face {
+    font-family:font_ns;
+    font-weight:bold;
+    src:local(※);
+      src: url(/font/NotoSansKR-Bold.eot);
+      src: url(/font/NotoSansKR-Bold.eot?#iefix) format('embedded-opentype'),
+      url(/font/NotoSansKR-Bold.woff) format('woff'),
+      url(/font/NotoSansKR-Bold.ttf) format('truetype');
+  }
+  @font-face {
+    font-family:font_sw;
+    font-weight:normal;
+    src:local(※);
+      src: url(/font/Subway-SixInch.eot);
+      src: url(/font/Subway-SixInch.eot?#iefix) format('embedded-opentype'),
+      url(/font/Subway-SixInch.woff) format('woff'),
+      url(/font/Subway-SixInch.ttf) format('truetype');
+  }
+  @font-face {
+    font-family:font_sw;
+    font-weight:bold;
+    src:local(※);
+      src: url(/font/Subway-Footlong.eot);
+      src: url(/font/Subway-Footlong.eot?#iefix) format('embedded-opentype'),
+      url(/font/Subway-Footlong.woff) format('woff'),
+      url(/font/Subway-Footlong.ttf) format('truetype');
+  }
+  
