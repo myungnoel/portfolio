@@ -1,0 +1,45 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+body{font-family: 'Roboto', sans-serif;}
+#wrap{font-family: 'Roboto', sans-serif;}
+
+
+/* header */
+#header{width: 100%; height: 95px; text-align: center; line-height: 122px; border-bottom: 1px solid #ddd;}
+
+
+/* section */
+#section{width: 100%;}
+#section .secText{margin-top: 20px;}
+#section .secText>ul{display: flex; justify-content: right;}
+#section .secText>ul li{margin-right: 32px;}
+#section .secText>ul li a{position: relative;}
+#section .secText>ul li a::after{content: ""; position: absolute; top: 6px; right: -23px; background: url(../img/icon/down_icon.png) no-repeat; width: 15px; height: 7px;}
+
+#section .login{margin-top: 21px;}
+#section .login .login_form{}
+#section .login .login_form form{width:356px;  margin: 0 auto;}
+#section .login .login_form form>input.id{width: 100%; height: 42px; border-radius: 6px; border: 1px solid #929292; box-sizing: border-box; padding-left: 13px;}
+#section .login .login_form form>input.pw{width: 100%; height: 42px; border-radius: 6px; border: 1px solid #929292; margin-top: 14px; box-sizing: border-box; padding-left: 13px;}
+#section .login .login_form form p{width: 100%; display: flex;}
+#section .login .login_form form p>input.checkbox{margin-top: 15px; width: 24px; height: 24px; margin-right: 15px; }
+#section .login .login_form form p label{ line-height: 54px;}
+#section .login .login_form form input.loginBtn{width: 100%; height: 42px; border-radius: 20px; border: 1px solid #00CD0C; color: #00CD0C; text-align: center; background: #fff;}
+
+#section .login .loginText{}
+#section .login .loginText>ul{display: flex; justify-content: center;}
+#section .login .loginText>ul li{margin:37px 20px;}
+#section .login .loginText>ul li a{color: #909090; position: relative;}
+#section .login .loginText>ul li:not(:last-child) a::after{content: ""; position: absolute; top: 4px; right: -20px; width: 1px; height: 12px; background: #909090;}
+
+#footer{width: 100%;}
+#footer .footer_text{text-align: center;}
+#footer .footer_text>ul{display: flex; justify-content: center;}
+#footer .footer_text>ul li{margin: 0 7.5px;}
+#footer .footer_text>ul li a{color: #909090; position: relative;}
+#footer .footer_text>ul li:not(:last-child) a::after{content: ""; position: absolute; top: 4px; right: -8px; width: 1px; height: 12px; background: #909090;}
+
+#footer .footer_text dl{margin-top: 9px;}
+#footer .footer_text dl dt{color: #000; font-weight: bold;margin-bottom: 7px;}
