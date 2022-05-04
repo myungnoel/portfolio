@@ -42,8 +42,8 @@ body {font-family: "";}
 /* section2 */
 #sec2 h2{text-align: center; font-size: 67px; text-shadow: 10px 7px 11px #333;}
 #sec2 .profile{display: flex;  margin-top: 30px;}
-#sec2 .profile .profile-left{width: 30%; padding: 0 30px; box-sizing: border-box; border-right: 1px solid #759077; transition: .4s; transform: translateY(1000px);}
-#fullpage #sec2 .profile .profile-left.on {-webkit-animation: aniY 1.5s forwards; animation: aniY 1.5s forwards;}
+#sec2 .profile .profile-left{width: 30%; padding: 0 30px; box-sizing: border-box; border-right: 1px solid #759077; transition: .4s; /* transform: translateY(1000px); */}
+/* #fullpage #sec2 .profile .profile-left.on {-webkit-animation: aniY 1.5s forwards; animation: aniY 1.5s forwards;} */
 #sec2 .profile .profile-left .photo{width:100%;  transition: .4s }
 #sec2 .profile .profile-left .photo .img{width:100%; border-radius: 15px; height: 300px; background: url(../img/noel.jpg) center center/ 80% no-repeat;}
 #sec2 .profile .profile-left .profile_text{margin-top: 5px; text-align: center;}
@@ -337,7 +337,10 @@ body {font-family: "";}
 }
 
 @media screen and (max-width : 480px) {
-  #fullpage #sec1 .container .main_text h1 {font-size: 200%; line-height: 35px;}
-  #fullpage #sec1 .container .main_text h1::after {width: 67px; height: 123px; top: -28px;}
-  #fullpage #sec1 .container p {font-size: 130%;}
+  #fullpage #sec1 .container .main_text h1 {font-size: 150%; line-height: 35px;}
+  #fullpage #sec1 .container .main_text h1::after {width: 54px; height: 90px; top: -12px;}
+  #fullpage #sec1 .container p {font-size: 90%;}
+
+  #sec2 h2 {text-align: center; font-size: 40px; text-shadow: 10px 7px 11px #333; margin-top: 10px;}
+  #sec3 h2 {font-size: 40px; font-family: 'Roboto', sans-serif; text-align: center; text-shadow: 10px 7px 11px #333; margin-top: 10px;}
 }

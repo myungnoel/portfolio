@@ -265,7 +265,7 @@ body {
  @media screen and (max-width : 1295px) {
   .section_bottom_menu>ul{width: 100%; box-sizing: border-box;}
   .section_menu .ser_cont{width: 100%; box-sizing: border-box;}
-  
+  .footer_content>.top_content{width: 100%; height: auto;box-sizing: border-box;}
 }
 
 
@@ -331,6 +331,10 @@ body {
   .swiper-slide1 .menus:hover::before{left: 100px;}
 }
 
+@media screen and (max-width : 890px) {
+  /* bottom */
+.footer_content>.bottom_content{display: none;}
+}
 
 @media screen and (max-width : 850px) {
   .container{width: 100%}
