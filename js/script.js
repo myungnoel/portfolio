@@ -1,4 +1,4 @@
- $(function(){
+$(function(){
     let wheelDelta=0; //휠 이벤트를 사용하면 반환값을 확인하기 위한 변수
     let browser=0; //파이어폭스 브라우저 판별하기 위한 변수(모든 브라우저에 통일 시키기 위해)
 
@@ -101,21 +101,34 @@ $('#btn05').click(function(e){
     $('html, body').animate({scrollTop: $('#sec5').offset().top},800);
 });
 
-$(window).scroll(function(){
+let winW=$(window).width();
+if(winW<=720){
+    let proList = $('.profile-list>ul>li');
+            let proListdiv = $('.profile-list>ul>.profile_list_dis div')
+            $('.profile-left').addClass('on');
+            proList.eq(0).stop().delay(1000).animate({opacity: 1},500);
+            proList.eq(1).stop().delay(1300).animate({opacity: 1},800);
+            proList.eq(2).stop().delay(1600).animate({opacity: 1},1100);
+            proList.eq(3).stop().delay(1900).animate({opacity: 1},1400);
+            proListdiv.addClass('on');
+}else{
+    $(window).scroll(function(){
 
-    let sct = $(window).scrollTop();
-    /* console.log(sct) */
-    let sec2 = $('#sec2').offset().top;
-    //console.log(sec2)
-    if(sct == sec2){
-        let proList = $('.profile-list>ul>li');
-        let proListdiv = $('.profile-list>ul>.profile_list_dis div')
-        $('.profile-left').addClass('on');
-        proList.eq(0).stop().delay(1000).animate({opacity: 1},500);
-        proList.eq(1).stop().delay(1300).animate({opacity: 1},800);
-        proList.eq(2).stop().delay(1600).animate({opacity: 1},1100);
-        proList.eq(3).stop().delay(1900).animate({opacity: 1},1400);
-        proListdiv.addClass('on');
-    }
-});
+        let sct = $(window).scrollTop();
+        /* console.log(sct) */
+        let sec2 = $('#sec2').offset().top;
+        //console.log(sec2)
+        if(sct == sec2){
+            let proList = $('.profile-list>ul>li');
+            let proListdiv = $('.profile-list>ul>.profile_list_dis div')
+            $('.profile-left').addClass('on');
+            proList.eq(0).stop().delay(1000).animate({opacity: 1},500);
+            proList.eq(1).stop().delay(1300).animate({opacity: 1},800);
+            proList.eq(2).stop().delay(1600).animate({opacity: 1},1100);
+            proList.eq(3).stop().delay(1900).animate({opacity: 1},1400);
+            proListdiv.addClass('on');
+        }
+    });
+}
+
 
