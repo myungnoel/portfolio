@@ -287,6 +287,22 @@ body {
 #m_Section>.sub_Box>.homesub> span{font-size: 25px; color: #aaa; display: block; margin: 15px 0;}
 #m_Section>.sub_Box>.homesub> .homesub_img img{width: 80%;}
 
+#m_Footer{background-color: #292929; text-align: center; color: #999;}
+#m_Footer .footerTop{border-bottom: 1px solid #999;}
+#m_Footer .footerTop ul{display: flex; justify-content: center;}
+#m_Footer .footerTop ul li{padding: 15px;}
+#m_Footer .footerTop ul li a{color: #999; position: relative;}
+#m_Footer .footerTop ul li:not(:last-child) a::after{content: ""; width: 1px; height: 12px; background: #464646; position: absolute; top: 2px; right: -16px;}
+
+#m_Footer .footerBottom{margin-top: 15px;}
+#m_Footer .footerBottom>.fb_text>ul{display: flex; justify-content: center;}
+#m_Footer .footerBottom>.fb_text>ul>li{padding: 15px;}
+#m_Footer .footerBottom>.fb_text>ul>li>a{color: #999; position: relative;}
+#m_Footer .footerBottom>.fb_text>ul>li:not(:last-child) a::after{content: ""; width: 1px; height: 12px; background: #464646; position: absolute; top: 2px; right: -16px;}
+
+#m_Footer .footerBottom>.fb_text>span{color: #999;}
+
+
 
  @media screen and (max-width : 1295px) {
   .section_bottom_menu>ul{width: 100%; box-sizing: border-box;}
@@ -394,7 +410,9 @@ body {
 }
 
 @media screen and (max-width : 500px) {
-  #m_Section>.sub_Box{padding: 70px 30px; height: 320px; top: 410px;}
+  #m_Section {height: 830px;}
+
+  #m_Section>.sub_Box{padding: 70px 30px; height: 320px; top: 410px; left: 26px;}
 
   #m_Section>.sub_Box>.fastsub>h3{font-size: 20px;}
   #m_Section>.sub_Box>.fastsub>h3::after{background: url(../img/bul_tit.png) center center/ 70% no-repeat; left: 11px;}
@@ -406,7 +424,10 @@ body {
 }
 
 @media screen and (max-width : 450px) {
-  #m_Section>.sub_Box{padding: 80px 30px; height: 300px; top: 380px;}
+
+  #m_Section {height: 750px;}
+
+  #m_Section>.sub_Box{padding: 80px 30px; height: 300px; top: 380px; left: 22px;}
 
 
   #m_Section>.sub_Box>.fastsub>h3{font-size: 17px;}
@@ -416,11 +437,13 @@ body {
   #m_Section>.sub_Box>.homesub>h3{font-size: 17px;}
   #m_Section>.sub_Box>.homesub>h3::after{background: url(../img/bul_tit.png) center center/ 60% no-repeat; left: 8px; top: -19px;}
   #m_Section>.sub_Box>.homesub> span{font-size: 17px;}
+
+  #m_Footer{font-size: 12px;}
+  #m_Footer .footerTop ul li a{font-size: 12px;}
 }
 
-
 @media screen and (max-width : 400px) {
-  #m_Section>.sub_Box{padding: 80px 30px; height: 300px; top: 340px;}
+  #m_Section>.sub_Box{padding: 80px 30px; height: 300px; top: 340px; left: 20px;}
 }
 
 
