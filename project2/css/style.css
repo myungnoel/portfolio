@@ -262,6 +262,19 @@ body {
 .footer_content>.bottom_content>a.facebook:hover{background: url(../img/icon_sns_facebook.png) no-repeat -50px 0;}
 
 
+/* mobile 적응형 560px 부터 */
+#mobiles{width: 100%; background: #fff;}
+#mobiles>#m_Header{padding: 0 30px; box-sizing: border-box; width: 100%; height: 70px; display: flex; align-items: center; justify-content: space-between; }
+#m_Header>.hamburger_menu span i{font-size: 30px;}
+#m_Header>.m_searchBar span i{font-size: 30px;}
+#m_Header>.m_Logo{margin-top: 9px;}
+
+#m_Section{width: 100%;}
+#m_Section>.banner_img{width: 100%;}
+#m_Section>.banner_img img{width: 100%;}
+
+
+
  @media screen and (max-width : 1295px) {
   .section_bottom_menu>ul{width: 100%; box-sizing: border-box;}
   .section_menu .ser_cont{width: 100%; box-sizing: border-box;}
@@ -342,7 +355,7 @@ body {
   .pc{display: none;}
   .mobile{display: block;}
   .swiper-pagination { z-index: 2;}
-  .section_bottom_menu>ul{justify-content: center; align-items: center;}
+  .section_bottom_menu>ul{justify-content: center; align-items: center; box-sizing: border-box; padding-left: 107px;}
   .section_bottom_menu>ul>li>a>strong{display: none;}
   .section_bottom_menu>ul>li>a>span{display: none;}
 
@@ -362,4 +375,9 @@ body {
 
 .footer_content>.top_content>ul>li{padding-right: 10px;}
 }
+
+@media screen and (max-width : 560px) {
+  #wrap{display: none;}
+}
+
 
