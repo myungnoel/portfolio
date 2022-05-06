@@ -264,7 +264,7 @@ body {
 
 
 /* mobile 560px 부터 */
-#mobiles{width: 100%; background: #fff; position: relative;}
+#mobiles{width: 100%; background: #fff; position: relative; display: none;}
 .mobile-menu{position: absolute; top: 0; left: -300px; width: 300px; height: 100vh; background:#fff; z-index: 14;}
 
 .mobile-menu>.app-btnx2{width: 40px; height: 40px;  position: relative;top: 0px; right: -259px;}
@@ -433,6 +433,7 @@ body {
 
 @media screen and (max-width : 560px) {
   #wrap{display: none;}
+  #mobiles{display: block;}
 }
 
 @media screen and (max-width : 500px) {
