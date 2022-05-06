@@ -15,8 +15,8 @@ body{font-family: 'Roboto', sans-serif;}
 #section .formWrap form select{width: 100%; margin-bottom: 17px; height: 42px; border-radius: 6px; box-sizing: border-box; border: 1px solid #9E9E9E; padding-left: 15px;}
 #section .formWrap form input#yy,
 #section .formWrap form input#xx{width: 30%; box-sizing: border-box;}
-#section .formWrap form input#yy{margin-right: 11px; box-sizing: border-box;}
-#section .formWrap form select#mm{width: 30%; margin-right: 11px; box-sizing: border-box;}
+#section .formWrap form input#yy{margin-right: 9px; box-sizing: border-box;}
+#section .formWrap form select#mm{width: 30%; margin-right: 9px; box-sizing: border-box;}
 #section .formWrap form .sellWrap{display: flex; justify-content: space-between;}
 #section .formWrap form .sellWrap input#sell{width: 65%;}
 #section .formWrap form .sellWrap a.btn{width: 30%; height: 42px; background: #00CD0C; color: #fff; display: block; text-align: center; line-height: 42px; border-radius: 6px;}
