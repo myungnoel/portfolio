@@ -46,7 +46,7 @@ body{font-family: 'Roboto', sans-serif;}
 #footer .footer_text dl dd{color: #888; margin-bottom: 3px;}
 
 /* mobile_Nav */
-.mobile_Nav{width: 350px; height: auto; background: #fff; z-index: 3; position: fixed; top: 0; left: -414px;}
+.mobile_Nav{width: 300px; height: auto; background: #fff; z-index: 3; position: fixed; top: 0; left: -414px;}
 .mobile_Nav .mobile_Nav_wrap .loginBtn{display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #ddd;}
 .mobile_Nav .mobile_Nav_wrap .loginBtn .login_icon{display: flex; align-items: center; margin: 20px 0 10px 43px;}
 .mobile_Nav .mobile_Nav_wrap .loginBtn .login_icon img{margin-right: 33px;}
