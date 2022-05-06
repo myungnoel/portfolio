@@ -69,3 +69,19 @@ $('.mobile-nav>ul>li').hover(function(){
 },function(){
   $(this).find('ul').stop().slideUp(500);
 });
+
+$('.hamburger_menu').click(function(){
+  $('.mobile-menu').stop().animate({left:0},500);
+});
+
+
+$('.app-btnx2').click(function(){
+  $('.mobile-menu').stop().animate({left:-300},500);
+});
+
+$('.mobile-menu>ul>li').hover(function(){
+  $(this).find('ul').stop().slideDown(500);
+},function(){
+  $(this).find('ul').stop().slideUp(500);
+});
+
