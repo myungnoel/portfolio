@@ -50,10 +50,12 @@ const mobileMenuBtn=$('.mobile_Nav>ul>li');
 
 mobileMenuBtn.on({click:function(e){
     e.preventDefault();
+    mobileMenuBtn.removeClass("on");
     let tg=$(this);
     let i=tg.index();
     let section=contents.eq(i);
     let st=section.offset().top;
+    tg.addClass("on");
     $('html, body').stop().animate({scrollTop:st});
 }});
 
