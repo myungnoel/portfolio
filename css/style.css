@@ -116,12 +116,13 @@ body {font-family: "";}
 /* section4 */
 #sec4 .container{width: 100%; height: 100vh; position: relative; padding: 50px 100px; box-sizing: border-box; overflow: hidden;}
 #sec4 .container h2{font-size: 67px; font-family: 'Roboto', sans-serif; text-shadow: 10px 7px 11px #333;}
-#sec4 .container .contactBox{width: 70%; height: 700px; position: absolute; bottom: 0; right: 0; background: #FFFFE9; padding: 30px 70px; transition: .3s;}
+#sec4 .container .contactBox{width: 70%; height: 700px; position: absolute; bottom: 0; right: 0; background: #FFFFE9; padding: 30px 70px; transition: .3s; }
 #sec4 .container .contactBox h3{font-size: 50px;}
 #sec4 .container .contactBox ul{margin-top: 250px;}
 #sec4 .container .contactBox ul li{margin-bottom: 20px;}
-#sec4 .container .contactBox ul li:nth-child(4){margin-top: 50px;}
 #sec4 .container .contactBox ul li a{font-size: 20px;}
+#sec4 .container .contactBox>a.pdf_Btn{border: 1px solid #000; display: block; text-align: center; line-height: 30px; width: 130px; height: 30px; border-radius: 8px; font-size: 12px; transition: .3s;}
+#sec4 .container .contactBox>a.pdf_Btn:hover{background: #000; color: #fff;}
 #sec4 .container p{font-size: 20px; margin-top: 730px; position: absolute; bottom: 75px;}
 
 @-webkit-keyframes aniY {
