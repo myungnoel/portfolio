@@ -69,8 +69,8 @@ $(window).scroll(function(){
             let tg =$(this);
             let i=tg.index();
             if(tg.offset().top <= sct){
-                mobileMenuBtn.removeClass('on');
-                mobileMenuBtn.eq(i).addClass('on');
+/*                 mobileMenuBtn.removeClass('on');
+                mobileMenuBtn.eq(i).addClass('on'); */
                 menuBtn.removeClass('active');
                 menuBtn.eq(i).addClass('active');
             }
